@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.io.OutputStream</OriginalElement>
+  <nodes>
+    <node x="81.49999999999997" y="190.0">java.io.OutputStream</node>
+    <node x="66.99999999999997" y="290.0">java.io.FileOutputStream</node>
+    <node x="161.0" y="23.0">java.lang.AutoCloseable</node>
+    <node x="0.0" y="101.0">java.io.Flushable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.io.OutputStream" target="java.io.Flushable" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="120.99999999999999" y="206.5" />
+      <point x="120.99999999999999" y="117.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.io.OutputStream" target="java.lang.AutoCloseable" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="170.99999999999997" y="111.5" />
+      <point x="253.0" y="111.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.io.FileOutputStream" target="java.io.OutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.0" showDependencies="false" x="363.0" y="141.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
